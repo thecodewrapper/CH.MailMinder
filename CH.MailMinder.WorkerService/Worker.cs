@@ -23,7 +23,7 @@ namespace CH.MailMinder.WorkerService
             await _graphService.Login();
             while (!stoppingToken.IsCancellationRequested)
             {
-                await Task.Delay(10000, stoppingToken);
+                await Task.Delay(1000, stoppingToken); //1sec loop, for testing
                 await CheckAndSend();
             }
         }

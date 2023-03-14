@@ -1,3 +1,5 @@
+[![Hack Together: Microsoft Graph and .NET](https://img.shields.io/badge/Microsoft%20-Hack--Together-orange?style=for-the-badge&logo=microsoft)](https://github.com/microsoft/hack-together)
+
 # CH.MailMinder
 
 `CH.MailMinder` is a worker service that uses Microsoft Graph to retrieve any unread emails at the end of the day, and sends a Teams message reminding you of any unread emails.
